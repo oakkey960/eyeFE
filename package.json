@@ -1,5 +1,5 @@
 {
-  "name": "eye-donation",
+  "name": "tcb-ppk-front",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,26 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.3.5",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "@heroui/react": "^3.2.1",
+    "@heroui/styles": "^3.2.1",
+    "@tanstack/react-form": "^0.25.1",
+    "apexcharts": "^5.15.2",
+    "next": "16.2.9",
+    "next-themes": "^0.4.6",
+    "react": "19.2.4",
+    "react-apexcharts": "^2.1.1",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@gravity-ui/icons": "^2.18.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.3.5",
+    "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
